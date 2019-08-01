@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>news-user-client</artifactId>
+    <artifactId>news-user-service</artifactId>
     <description>用户服务</description>
 
 </project>
