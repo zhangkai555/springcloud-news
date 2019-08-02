@@ -51,4 +51,17 @@
             </snapshots>
         </repository>
     </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>releases</id >
+            <name>Nexus Release Repository</name >
+            <url>http://60.205.115.115:8898/content/repositories/releases/</url >
+        </repository>
+        <snapshotRepository>
+            <id>releases-snapshot</id >
+            <name>Nexus Snapshot Repository</name >
+            <url>http://60.205.115.115:8898/content/repositories/snapshots/</url >
+        </snapshotRepository >
+    </distributionManagement >
 </project>
