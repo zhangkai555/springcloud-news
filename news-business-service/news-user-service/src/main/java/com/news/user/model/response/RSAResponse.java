@@ -3,7 +3,7 @@ package com.news.user.model.response;
 /**
  * RSA生成的公私钥输出参数
  */
-public class RSAResponse extends BaseResponse{
+public class RSAResponse {
 
     private String serverPublicKey;
 

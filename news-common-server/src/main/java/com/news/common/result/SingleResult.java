@@ -87,7 +87,6 @@ public class SingleResult<T> extends Result {
         SingleResult result = new SingleResult();
         result.setCode(code);
         result.setMessage(message);
-        result.setData("");
         return result;
     }
 

@@ -11,6 +11,8 @@ public class Result {
 
 	private String message;
 
+
+
 	public int getCode() {
 		return code.getStatus();
 	}
@@ -26,7 +28,7 @@ public class Result {
 	public void setMessage(String message) {
 		this.message = message;
 	}
-	
+
 
 	@Override
 	public String toString() {

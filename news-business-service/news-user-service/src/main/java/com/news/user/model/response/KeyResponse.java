@@ -3,7 +3,7 @@ package com.news.user.model.response;
 /**
  * 私钥输出参数
  */
-public class KeyResponse extends BaseResponse{
+public class KeyResponse {
 
     /**
      * 整个系统所有加密算法共用的密钥

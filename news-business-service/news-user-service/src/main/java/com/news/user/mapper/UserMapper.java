@@ -1,5 +1,6 @@
 package com.news.user.mapper;
 
+import com.news.common.model.response.UserInfo;
 import com.news.user.model.bean.UserBean;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
@@ -15,4 +16,7 @@ public interface UserMapper {
 
     @Select("select id,mobile,password from news_user where mobile = #{mobile}")
     List<UserBean> selectUserByMobile(String mobile);
+
+    @Select("select id,mobile,password from news_user where id = #{id}")
+    UserInfo getUserInfo(@Param("id") Integer id);
 }

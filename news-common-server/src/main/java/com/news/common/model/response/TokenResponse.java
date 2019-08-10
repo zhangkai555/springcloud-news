@@ -1,4 +1,4 @@
-package com.news.user.model.response;
+package com.news.common.model.response;
 
 public class TokenResponse extends BaseResponse{
 
