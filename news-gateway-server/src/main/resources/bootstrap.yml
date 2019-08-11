@@ -1,15 +1,11 @@
 spring:
-  application:
-    name: gateway
-  profiles:
-    active: dev
   cloud:
     config:
       name: gateway
       label: master
       discovery:
         enabled: true
-        serviceId: new-config-server
+        serviceId: news-config-server
 eureka:
   client:
     serviceUrl:
