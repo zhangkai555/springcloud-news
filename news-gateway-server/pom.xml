@@ -12,7 +12,6 @@
     <artifactId>news-gateway-server</artifactId>
     <description>统一网关</description>
 
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
